@@ -1,0 +1,88 @@
+{
+  "dataset_info": {
+    "title": "Food Desert Demographics Enhancement Dataset",
+    "description": "Census demographic and store location data for food desert analysis",
+    "created": "2025-09-30T08:14:17.676319",
+    "creator": "Food Desert Data Collection Agent v1.0",
+    "total_records": 2
+  },
+  "collection_process": {
+    "start_time": "2025-09-30T08:12:17.846127",
+    "end_time": "2025-09-30T08:14:17.676319",
+    "duration_minutes": 1.9833333333333334,
+    "apis_used": [
+      "census.gov ACS5",
+      "OpenStreetMap"
+    ]
+  },
+  "data_structure": {
+    "tract_id": {
+      "type": "str",
+      "description": "Data field: tract_id"
+    },
+    "location": {
+      "type": "str",
+      "description": "Data field: location"
+    },
+    "state_fips": {
+      "type": "str",
+      "description": "Data field: state_fips"
+    },
+    "county_fips": {
+      "type": "str",
+      "description": "Data field: county_fips"
+    },
+    "tract_fips": {
+      "type": "str",
+      "description": "Data field: tract_fips"
+    },
+    "collected_at": {
+      "type": "str",
+      "description": "Data field: collected_at"
+    },
+    "data_source": {
+      "type": "str",
+      "description": "Data field: data_source"
+    },
+    "median_income": {
+      "type": "float",
+      "description": "Median household income in dollars"
+    },
+    "total_population": {
+      "type": "float",
+      "description": "Total population in census tract"
+    },
+    "white_population": {
+      "type": "float",
+      "description": "Data field: white_population"
+    },
+    "black_population": {
+      "type": "float",
+      "description": "Data field: black_population"
+    },
+    "vehicle_available": {
+      "type": "float",
+      "description": "Households with vehicle available"
+    },
+    "no_vehicle": {
+      "type": "float",
+      "description": "Households without vehicle"
+    },
+    "snap_benefits": {
+      "type": "float",
+      "description": "Households receiving SNAP benefits"
+    },
+    "quality_score": {
+      "type": "float",
+      "description": "Data quality assessment score (0-1)"
+    },
+    "nearby_stores": {
+      "type": "list",
+      "description": "List of nearby food retail locations"
+    }
+  },
+  "quality_metrics": {
+    "average_quality_score": 1.0,
+    "completeness_rate": 0.2
+  }
+}

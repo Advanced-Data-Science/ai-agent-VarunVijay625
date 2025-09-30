@@ -1,0 +1,57 @@
+{
+  "project_name": "Food Desert Demographics Enhancement",
+  "version": "1.0",
+  
+  "apis": {
+    "census": {
+      "base_url": "https://api.census.gov/data",
+      "api_key": "5bf7f3a350d12d84dffd578899c68e201fb99474",
+      "rate_limit": 500,
+      "timeout": 30
+    },
+    "openstreetmap": {
+      "base_url": "https://overpass-api.de/api/interpreter",
+      "api_key": null,
+      "rate_limit": 2,
+      "timeout": 60
+    }
+  },
+  
+  "collection_settings": {
+    "target_census_tracts": 10,
+    "min_delay_seconds": 1,
+    "max_retries": 3,
+    "min_quality_threshold": 0.7,
+    "save_raw_responses": true
+  },
+  
+  "data_paths": {
+    "raw_data": "data/raw",
+    "processed_data": "data/processed",
+    "metadata": "data/metadata",
+    "logs": "logs",
+    "reports": "reports"
+  },
+  
+    "census_variables": {
+    "median_income": "B19013_001E",
+    "total_population": "B01003_001E",
+    "white_population": "B02001_002E",
+    "black_population": "B02001_003E",
+    "vehicle_available": "B25044_003E",
+    "no_vehicle": "B25044_010E",
+    "snap_benefits": "B22003_002E"
+    },
+  
+    "quality_checks": {
+    "required_fields": [
+        "median_income",
+        "total_population"
+    ],
+    "valid_ranges": {
+        "median_income": [0, 250000],
+        "total_population": [1, 100000]
+    }
+
+  }
+}

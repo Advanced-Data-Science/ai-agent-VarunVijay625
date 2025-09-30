@@ -1,0 +1,217 @@
+2025-09-30 07:42:53,609 - INFO - Food Desert Data Collection Agent initialized
+2025-09-30 07:42:53,609 - INFO - ============================================================
+2025-09-30 07:42:53,609 - INFO - Starting Food Desert Data Collection
+2025-09-30 07:42:53,609 - INFO - ============================================================
+2025-09-30 07:42:53,609 - INFO - Target: 10 census tracts
+2025-09-30 07:42:53,609 - INFO - 
+--- Processing tract 1/10 ---
+2025-09-30 07:42:53,609 - INFO - Collecting Census data for Chicago, IL (Urban)
+2025-09-30 07:42:53,740 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A770100&in=state%3A17+county%3A031&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:42:53,740 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:42:55,794 - INFO - 
+--- Processing tract 2/10 ---
+2025-09-30 07:42:55,796 - INFO - Collecting Census data for Los Angeles, CA (Urban)
+2025-09-30 07:42:55,910 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A207400&in=state%3A06+county%3A037&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:42:55,919 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 07:42:55,919 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:42:59,510 - INFO - 
+--- Processing tract 3/10 ---
+2025-09-30 07:42:59,511 - INFO - Collecting Census data for Manhattan, NY (Urban)
+2025-09-30 07:42:59,627 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A008600&in=state%3A36+county%3A061&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:42:59,627 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 07:42:59,627 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:43:04,832 - INFO - 
+--- Processing tract 4/10 ---
+2025-09-30 07:43:04,834 - INFO - Collecting Census data for Chicago Suburbs, IL
+2025-09-30 07:43:04,948 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A810600&in=state%3A17+county%3A031&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:43:04,948 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 07:43:04,948 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:43:16,002 - INFO - 
+--- Processing tract 5/10 ---
+2025-09-30 07:43:16,004 - INFO - Collecting Census data for San Diego Suburbs, CA
+2025-09-30 07:43:16,128 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A401101&in=state%3A06+county%3A073&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:43:16,128 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 07:43:16,128 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:43:33,564 - INFO - 
+--- Processing tract 6/10 ---
+2025-09-30 07:43:33,564 - INFO - Collecting Census data for Mississippi Delta (Rural)
+2025-09-30 07:43:33,687 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A960100&in=state%3A28+county%3A151&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:43:33,691 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 07:43:33,691 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:43:47,640 - INFO - 
+--- Processing tract 7/10 ---
+2025-09-30 07:43:47,640 - INFO - Collecting Census data for Appalachia, KY (Rural)
+2025-09-30 07:43:47,762 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A950100&in=state%3A21+county%3A095&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:43:47,762 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 07:43:47,762 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:44:01,641 - INFO - 
+--- Processing tract 8/10 ---
+2025-09-30 07:44:01,641 - INFO - Collecting Census data for Houston, TX
+2025-09-30 07:44:01,753 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A110305&in=state%3A48+county%3A201&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:44:01,753 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 07:44:01,753 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:44:16,662 - INFO - 
+--- Processing tract 9/10 ---
+2025-09-30 07:44:16,664 - INFO - Collecting Census data for Phoenix, AZ
+2025-09-30 07:44:16,779 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A040902&in=state%3A04+county%3A013&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:44:16,779 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 07:44:16,779 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:44:28,852 - INFO - 
+--- Processing tract 10/10 ---
+2025-09-30 07:44:28,854 - INFO - Collecting Census data for Atlanta, GA
+2025-09-30 07:44:28,959 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A000604&in=state%3A13+county%3A121&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 07:44:28,969 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 07:44:28,969 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 07:44:46,428 - INFO - Saved raw data to data\raw\food_desert_data_20250930_074446.json
+2025-09-30 07:44:46,429 - INFO - Generated metadata: data\metadata\dataset_metadata.json
+2025-09-30 07:44:46,432 - INFO - Generated quality report: reports\quality_report.html
+2025-09-30 07:44:46,434 - INFO - Generated collection summary: reports\collection_summary.txt
+2025-09-30 07:44:46,434 - INFO - 
+============================================================
+2025-09-30 07:44:46,434 - INFO - Collection Complete!
+2025-09-30 07:44:46,434 - INFO - ============================================================
+2025-09-30 08:08:53,320 - INFO - Food Desert Data Collection Agent initialized
+2025-09-30 08:08:53,323 - INFO - ============================================================
+2025-09-30 08:08:53,323 - INFO - Starting Food Desert Data Collection
+2025-09-30 08:08:53,323 - INFO - ============================================================
+2025-09-30 08:08:53,323 - INFO - Target: 10 census tracts
+2025-09-30 08:08:53,323 - INFO - 
+--- Processing tract 1/10 ---
+2025-09-30 08:08:53,323 - INFO - Collecting Census data for Chicago, IL (Urban)
+2025-09-30 08:08:53,476 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A770100&in=state%3A17+county%3A031&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:08:53,482 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:08:55,575 - INFO - 
+--- Processing tract 2/10 ---
+2025-09-30 08:08:55,577 - INFO - Collecting Census data for Los Angeles, CA (Urban)
+2025-09-30 08:08:55,767 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A207400&in=state%3A06+county%3A037&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:08:55,773 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:08:55,773 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:08:58,982 - INFO - 
+--- Processing tract 3/10 ---
+2025-09-30 08:08:58,982 - INFO - Collecting Census data for Manhattan, NY (Urban)
+2025-09-30 08:08:59,094 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A008600&in=state%3A36+county%3A061&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:08:59,100 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:08:59,100 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:09:04,968 - INFO - 
+--- Processing tract 4/10 ---
+2025-09-30 08:09:04,968 - INFO - Collecting Census data for Chicago Suburbs, IL
+2025-09-30 08:09:05,148 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A810600&in=state%3A17+county%3A031&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:09:05,148 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:09:05,148 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:09:16,782 - INFO - 
+--- Processing tract 5/10 ---
+2025-09-30 08:09:16,782 - INFO - Collecting Census data for San Diego Suburbs, CA
+2025-09-30 08:09:16,881 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A401101&in=state%3A06+county%3A073&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:09:16,881 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:09:16,881 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:09:28,983 - INFO - 
+--- Processing tract 6/10 ---
+2025-09-30 08:09:28,983 - INFO - Collecting Census data for Mississippi Delta (Rural)
+2025-09-30 08:09:29,091 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A960100&in=state%3A28+county%3A151&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:09:29,091 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:09:29,091 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:09:43,857 - INFO - 
+--- Processing tract 7/10 ---
+2025-09-30 08:09:43,857 - INFO - Collecting Census data for Appalachia, KY (Rural)
+2025-09-30 08:09:44,094 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A950100&in=state%3A21+county%3A095&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:09:44,095 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:09:44,095 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:10:00,289 - INFO - 
+--- Processing tract 8/10 ---
+2025-09-30 08:10:00,289 - INFO - Collecting Census data for Houston, TX
+2025-09-30 08:10:00,396 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A110305&in=state%3A48+county%3A201&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:10:00,396 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:10:00,396 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:10:17,013 - INFO - 
+--- Processing tract 9/10 ---
+2025-09-30 08:10:17,013 - INFO - Collecting Census data for Phoenix, AZ
+2025-09-30 08:10:17,138 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A040902&in=state%3A04+county%3A013&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:10:17,138 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:10:17,138 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:10:31,940 - INFO - 
+--- Processing tract 10/10 ---
+2025-09-30 08:10:31,940 - INFO - Collecting Census data for Atlanta, GA
+2025-09-30 08:10:32,197 - ERROR - Census API error: 400 Client Error:  for url: https://api.census.gov/data/2021/acs/acs5?get=NAME%2CB19013_001E%2CS1701_C03_001E%2CB01003_001E%2CB02001_002E%2CB02001_003E%2CB25044_003E%2CB25044_010E%2CB22003_002E&for=tract%3A000604&in=state%3A13+county%3A121&key=5bf7f3a350d12d84dffd578899c68e201fb99474
+2025-09-30 08:10:32,197 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:10:32,199 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:10:44,404 - INFO - Saved raw data to data\raw\food_desert_data_20250930_081044.json
+2025-09-30 08:10:44,406 - INFO - Generated metadata: data\metadata\dataset_metadata.json
+2025-09-30 08:10:44,408 - INFO - Generated quality report: reports\quality_report.html
+2025-09-30 08:10:44,411 - INFO - Generated collection summary: reports\collection_summary.txt
+2025-09-30 08:10:44,458 - INFO - 
+============================================================
+2025-09-30 08:10:44,458 - INFO - Collection Complete!
+2025-09-30 08:10:44,458 - INFO - ============================================================
+2025-09-30 08:12:17,846 - INFO - Food Desert Data Collection Agent initialized
+2025-09-30 08:12:17,846 - INFO - ============================================================
+2025-09-30 08:12:17,846 - INFO - Starting Food Desert Data Collection
+2025-09-30 08:12:17,846 - INFO - ============================================================
+2025-09-30 08:12:17,846 - INFO - Target: 10 census tracts
+2025-09-30 08:12:17,846 - INFO - 
+--- Processing tract 1/10 ---
+2025-09-30 08:12:17,846 - INFO - Collecting Census data for Chicago, IL (Urban)
+2025-09-30 08:12:18,546 - ERROR - Census API error: Expecting value: line 1 column 1 (char 0)
+2025-09-30 08:12:18,546 - WARNING - Success rate low (0.0%), increasing delay
+2025-09-30 08:12:20,479 - INFO - 
+--- Processing tract 2/10 ---
+2025-09-30 08:12:20,479 - INFO - Collecting Census data for Los Angeles, CA (Urban)
+2025-09-30 08:12:21,095 - INFO - Collecting store data for Los Angeles, CA (Urban)
+2025-09-30 08:12:21,095 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:12:21,095 - WARNING - Success rate low (50.0%), increasing delay
+2025-09-30 08:12:24,086 - INFO - 
+--- Processing tract 3/10 ---
+2025-09-30 08:12:24,088 - INFO - Collecting Census data for Manhattan, NY (Urban)
+2025-09-30 08:12:24,776 - ERROR - Census API error: Expecting value: line 1 column 1 (char 0)
+2025-09-30 08:12:24,776 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:12:24,786 - WARNING - Success rate low (33.3%), increasing delay
+2025-09-30 08:12:30,765 - INFO - 
+--- Processing tract 4/10 ---
+2025-09-30 08:12:30,765 - INFO - Collecting Census data for Chicago Suburbs, IL
+2025-09-30 08:12:31,316 - INFO - Collecting store data for Chicago Suburbs, IL
+2025-09-30 08:12:31,319 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:12:31,319 - WARNING - Success rate low (50.0%), increasing delay
+2025-09-30 08:12:42,779 - INFO - 
+--- Processing tract 5/10 ---
+2025-09-30 08:12:42,779 - INFO - Collecting Census data for San Diego Suburbs, CA
+2025-09-30 08:12:43,258 - ERROR - Census API error: Expecting value: line 1 column 1 (char 0)
+2025-09-30 08:12:43,258 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:12:43,258 - WARNING - Success rate low (40.0%), increasing delay
+2025-09-30 08:12:56,765 - INFO - 
+--- Processing tract 6/10 ---
+2025-09-30 08:12:56,765 - INFO - Collecting Census data for Mississippi Delta (Rural)
+2025-09-30 08:12:57,279 - ERROR - Census API error: Expecting value: line 1 column 1 (char 0)
+2025-09-30 08:12:57,279 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:12:57,279 - WARNING - Success rate low (33.3%), increasing delay
+2025-09-30 08:13:14,385 - INFO - 
+--- Processing tract 7/10 ---
+2025-09-30 08:13:14,385 - INFO - Collecting Census data for Appalachia, KY (Rural)
+2025-09-30 08:13:14,882 - ERROR - Census API error: Expecting value: line 1 column 1 (char 0)
+2025-09-30 08:13:14,889 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:13:14,889 - WARNING - Success rate low (28.6%), increasing delay
+2025-09-30 08:13:31,550 - INFO - 
+--- Processing tract 8/10 ---
+2025-09-30 08:13:31,550 - INFO - Collecting Census data for Houston, TX
+2025-09-30 08:13:32,043 - ERROR - Census API error: Expecting value: line 1 column 1 (char 0)
+2025-09-30 08:13:32,043 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:13:32,043 - WARNING - Success rate low (25.0%), increasing delay
+2025-09-30 08:13:47,088 - INFO - 
+--- Processing tract 9/10 ---
+2025-09-30 08:13:47,088 - INFO - Collecting Census data for Phoenix, AZ
+2025-09-30 08:13:47,565 - ERROR - Census API error: Expecting value: line 1 column 1 (char 0)
+2025-09-30 08:13:47,573 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:13:47,573 - WARNING - Success rate low (22.2%), increasing delay
+2025-09-30 08:14:03,493 - INFO - 
+--- Processing tract 10/10 ---
+2025-09-30 08:14:03,493 - INFO - Collecting Census data for Atlanta, GA
+2025-09-30 08:14:03,953 - ERROR - Census API error: Expecting value: line 1 column 1 (char 0)
+2025-09-30 08:14:03,953 - INFO - Quality excellent (avg: 1.00), maintaining pace
+2025-09-30 08:14:03,953 - WARNING - Success rate low (20.0%), increasing delay
+2025-09-30 08:14:17,676 - INFO - Saved raw data to data\raw\food_desert_data_20250930_081417.json
+2025-09-30 08:14:17,676 - INFO - Saved CSV to data\raw\food_desert_data_20250930_081417.csv
+2025-09-30 08:14:17,681 - INFO - Generated metadata: data\metadata\dataset_metadata.json
+2025-09-30 08:14:17,681 - INFO - Generated quality report: reports\quality_report.html
+2025-09-30 08:14:17,684 - INFO - Generated collection summary: reports\collection_summary.txt
+2025-09-30 08:14:17,684 - INFO - 
+============================================================
+2025-09-30 08:14:17,684 - INFO - Collection Complete!
+2025-09-30 08:14:17,684 - INFO - ============================================================

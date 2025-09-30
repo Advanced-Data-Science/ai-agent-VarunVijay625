@@ -1,0 +1,32 @@
+{
+  "exercise": "2.2 - Cat Facts",
+  "total_collected": 5,
+  "collection_time": "2025-09-30T10:16:00.027983",
+  "facts": [
+    {
+      "fact_number": 1,
+      "fact": "The group of words associated with cat (catt,\u00a0cath,\u00a0chat,\u00a0katze) stem from the Latin\u00a0catus, meaning domestic cat, as opposed to\u00a0feles, or wild cat.",
+      "collected_at": "2025-09-30T10:15:54.108972"
+    },
+    {
+      "fact_number": 2,
+      "fact": "In the 1750s, Europeans introduced cats into the Americas to control pests.",
+      "collected_at": "2025-09-30T10:15:55.233753"
+    },
+    {
+      "fact_number": 3,
+      "fact": "A domestic cat can run at speeds of 30 mph.",
+      "collected_at": "2025-09-30T10:15:56.890842"
+    },
+    {
+      "fact_number": 4,
+      "fact": "A cat's normal temperature varies around 101 degrees Fahrenheit.",
+      "collected_at": "2025-09-30T10:15:57.960603"
+    },
+    {
+      "fact_number": 5,
+      "fact": "During the time of the Spanish Inquisition, Pope Innocent VIII condemned cats as evil and thousands of cats were burned. Unfortunately, the widespread killing of cats led to an explosion of the rat population, which exacerbated the effects of the Black Death.",
+      "collected_at": "2025-09-30T10:15:59.027616"
+    }
+  ]
+}

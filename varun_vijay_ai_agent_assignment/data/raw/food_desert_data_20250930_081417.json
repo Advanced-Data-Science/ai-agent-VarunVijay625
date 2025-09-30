@@ -1,0 +1,92 @@
+{
+  "collection_info": {
+    "collected_at": "2025-09-30T08:14:17.674309",
+    "agent_version": "1.0",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "tract_id": "06037207400",
+      "location": "Los Angeles, CA (Urban)",
+      "state_fips": "06",
+      "county_fips": "037",
+      "tract_fips": "207400",
+      "collected_at": "2025-09-30T08:12:21.095901",
+      "data_source": "census_acs5_2021",
+      "median_income": 72750.0,
+      "total_population": 2122.0,
+      "white_population": 765.0,
+      "black_population": 313.0,
+      "vehicle_available": 0.0,
+      "no_vehicle": 59.0,
+      "snap_benefits": 41.0,
+      "quality_score": 1.0,
+      "nearby_stores": [
+        {
+          "type": "convenience",
+          "distance_miles": 4.76,
+          "name": "Store 1"
+        },
+        {
+          "type": "supermarket",
+          "distance_miles": 3.32,
+          "name": "Store 2"
+        },
+        {
+          "type": "grocery",
+          "distance_miles": 2.89,
+          "name": "Store 3"
+        },
+        {
+          "type": "convenience",
+          "distance_miles": 3.61,
+          "name": "Store 4"
+        },
+        {
+          "type": "convenience",
+          "distance_miles": 4.46,
+          "name": "Store 5"
+        }
+      ]
+    },
+    {
+      "tract_id": "17031810600",
+      "location": "Chicago Suburbs, IL",
+      "state_fips": "17",
+      "county_fips": "031",
+      "tract_fips": "810600",
+      "collected_at": "2025-09-30T08:12:31.314208",
+      "data_source": "census_acs5_2021",
+      "median_income": 64044.0,
+      "total_population": 4747.0,
+      "white_population": 3350.0,
+      "black_population": 69.0,
+      "vehicle_available": 20.0,
+      "no_vehicle": 134.0,
+      "snap_benefits": 118.0,
+      "quality_score": 1.0,
+      "nearby_stores": [
+        {
+          "type": "convenience",
+          "distance_miles": 3.24,
+          "name": "Store 1"
+        },
+        {
+          "type": "supermarket",
+          "distance_miles": 4.76,
+          "name": "Store 2"
+        },
+        {
+          "type": "convenience",
+          "distance_miles": 4.08,
+          "name": "Store 3"
+        },
+        {
+          "type": "grocery",
+          "distance_miles": 4.3,
+          "name": "Store 4"
+        }
+      ]
+    }
+  ]
+}
